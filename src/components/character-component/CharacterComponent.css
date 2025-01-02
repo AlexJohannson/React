@@ -1,0 +1,45 @@
+.simpson-wrapper{
+    width: 100%;
+    height: 600px;
+    margin: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 17px 12px rgba(0, 0, 225, .2);
+}
+.simpson-title{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.simpson-name{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 3px solid #f1ac20;
+}
+.simpson-photo{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E3B6B1;
+}
+img{
+    width: 60%;
+    height: 400px;
+}
+.simpson-about{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 3px solid #f1ac20;
+
+}
