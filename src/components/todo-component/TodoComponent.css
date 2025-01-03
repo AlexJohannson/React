@@ -1,0 +1,20 @@
+.user_completed {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    background: #e3eed4;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0 , 0.19);
+}
+.user_completed h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+}
+
+.completed_yes{
+    background: #4da674;
+}
+.completed_non{
+    background: #e95354;
+}
