@@ -8,10 +8,10 @@ export const TodoComponents = () => {
 
     const [todo, setTodo] = useState<ITodo[]>([])
     useEffect(() => {
-            getTodo()
-            .then(value => {
-                // @ts-ignore
-                setTodo(value);
+        getTodo()
+            .then( value=>{
+                    // @ts-ignore
+                setTodo(value)
             });
     }, []);
     return (
