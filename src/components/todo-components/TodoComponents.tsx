@@ -9,9 +9,9 @@ export const TodoComponents = () => {
     const [todo, setTodo] = useState<ITodo[]>([])
     useEffect(() => {
         getTodo()
-            .then( value=>{
-                    // @ts-ignore
-                setTodo(value)
+            .then((value: ITodo)=>{
+                // @ts-ignore
+                setTodo(value);
             });
     }, []);
     return (
