@@ -1,4 +1,5 @@
 import {IUser} from "../../../models/i-users-model/IUsersModel.ts";
+import './UserComponent.css'
 
 
 interface IUserProps {
@@ -8,8 +9,7 @@ interface IUserProps {
 export const UserComponent = ({users}: IUserProps) => {
     return (
         <>
-            <div>
-                <img src={users.image} alt={users.firstName}/>
+            <div className={'user-page'}>
                 <h3>{users.firstName} {users.lastName}</h3>
                 <p><b>Age:</b> {users.age}</p>
                 <p><b>Gender:</b> {users.gender}</p>
