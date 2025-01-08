@@ -3,7 +3,8 @@ import {useEffect, useState} from "react";
 import {CartComponent} from "../cart-component/CartComponent.tsx";
 import {dummyCartService} from "../../services/api.service.ts";
 import {IProduct} from "../../models/user-carts-model/IProduct.ts";
-import {IResponsProduct} from "../../models/user-carts-model/IResponsProduct.ts";
+import {IResponsProduct} from "../../models/user-carts-model/IResponsProduct.ts"
+
 
 
 
