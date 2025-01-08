@@ -5,7 +5,7 @@ export const MainLayout = () => {
     return (
         <>
             <div>
-                 <Outlet/>
+                  <Outlet/>
             </div>
         </>
     );
