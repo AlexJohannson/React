@@ -12,6 +12,6 @@ export const dummyUserService = {
 export const dummyCartService = {
     getCartsOfUsers: async(userId: string): Promise<IResponsProduct> => {
         return await fetch(dummyUrl + '/carts/user/' + userId)
-            .then(res => res.json())
+            .then(res => res.json());
     }
 };
