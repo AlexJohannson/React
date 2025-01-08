@@ -11,7 +11,7 @@ export const CartsComponent = () => {
 
 
     const {id} = useParams();
-    const [carts, setCarts] = useState<IProduct[]>([])
+    const [carts, setCarts] = useState<IProduct[]>([]);
     useEffect(() => {
         if (id) {
             dummyCartService.getCartsOfUsers(id)
