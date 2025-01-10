@@ -4,15 +4,15 @@ import {dummyUserService} from "../../services/api.service.ts";
 import {IUserResponsModel} from "../../models/user-models/IUserResponsModel.ts";
 import {UserComponent} from "../user-component/UserComponent.tsx";
 
-export const UsersComponent = () => {
 
+export const UsersComponent = () => {
 
     const [user, setUser] = useState<IUser[]>([])
     useEffect(() => {
-             dummyUserService.getAllUsers()
-                 .then(({users}: IUserResponsModel) => {
-                     setUser(users);
-                 })
+        dummyUserService.getAllUsers()
+            .then(({users}: IUserResponsModel) => {
+                setUser(users);
+            })
     }, []);
     return (
         <>

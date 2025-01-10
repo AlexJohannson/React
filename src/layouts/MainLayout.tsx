@@ -1,12 +1,16 @@
 import {Outlet} from "react-router-dom";
+import './MainLayouts.css';
 
 
 export const MainLayout = () => {
     return (
         <>
-            <div>
-                  <Outlet/>
+            <div className={'wrapper'}>
+                <Outlet/>
             </div>
         </>
     );
 };
+
+
+

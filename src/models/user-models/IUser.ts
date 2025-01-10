@@ -1,8 +1,8 @@
 import {IHair} from "./IHair.ts";
 import {IBank} from "./IBank.ts";
-import {IAddressCompany} from "./IAddressCompany.ts";
 import {ICompany} from "./ICompany.ts";
 import {ICrypto} from "./ICrypto.ts";
+import {IAddressHome} from "./IAddressHome.ts";
 
 
 export interface  IUser {
@@ -24,7 +24,7 @@ export interface  IUser {
   eyeColor: string;
   hair: IHair;
   ip: string;
-  address: IAddressCompany;
+  address: IAddressHome;
   macAddress: string;
   university: string;
   bank: IBank;

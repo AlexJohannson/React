@@ -4,8 +4,11 @@ export const CartsPage = () => {
     return (
         <>
             <div>
-                <CartsComponent/>
+                 <CartsComponent/>
             </div>
         </>
     );
 };
+
+
+

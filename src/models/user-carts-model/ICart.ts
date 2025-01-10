@@ -1,6 +1,6 @@
 import {IProducts} from "./IProducts.ts";
 
-export interface  IProduct{
+export interface ICart {
   id: number;
   products: IProducts[];
   total: number;
